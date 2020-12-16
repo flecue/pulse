@@ -1,7 +1,7 @@
 import ruamel.yaml
 
 yaml = ruamel.yaml.YAML()
-data = yaml.load(open('anaconda-project.yml'))
+data = yaml.load(open('pulse.yml'))
 
 requirements = []
 for dep in data['dependencies']:
